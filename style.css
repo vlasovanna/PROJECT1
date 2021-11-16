@@ -1,3 +1,33 @@
-title {
-    style: stong;
+
+body {
+
+}
+
+.container {
+    background-color: grey;
+    color: #000000
+}
+
+.block-1 {
+    float: left;
+    width: 30%;
+    border: 1px solid #ccc;
+    background-color: blue;
+    color: #fff;
+}
+
+.block-2 {
+    float: left;
+    width: 30%;
+    border: 1px solid #ccc;
+    background-color: aquamarine;
+    color: #fff;
+}
+
+.block-3 {
+    float: left;
+    width: 30%;
+    border: 1px solid #ccc;
+    background-color: goldenrod;
+    color: #fff;
 }
