@@ -1,33 +1,42 @@
 
 body {
-    color: #ffffff;
+    background-color: #f4f4f4;
+    color: #555555;
+
+    font-family: "Open Sans ExtraBold";
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6em;
+    margin: 0;
 }
 
-.container {
+a {
+    color: white;
+}
+
+
+.menu {
+    box-shadow: grey;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.title {
+    background-color: white;
+    text-align: center;
+}
+
+.about {
     background-color: grey;
-    color: #000000
 }
 
-.block-1 {
+.box {
+    border-radius: 10px;
     float: left;
     width: 30%;
-    border: 1px solid #ccc;
-    background-color: blue;
-    color: #fff;
+    border: 1px solid
 }
 
-.block-2 {
-    float: left;
-    width: 30%;
-    border: 1px solid #ccc;
-    background-color: aquamarine;
-    color: #fff;
-}
-
-.block-3 {
-    float: left;
-    width: 30%;
-    border: 1px solid #ccc;
-    background-color: goldenrod;
-    color: #fff;
+.elements {
+    background-color: white;
 }
