@@ -3,22 +3,18 @@ body {
     background-color: #f4f4f4;
     color: #555555;
 
-    font-family: "Open Sans ExtraBold";
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: normal;
     line-height: 1.6em;
     margin: 0;
 }
 
-a {
-    color: white;
-}
-
-
 .menu {
     box-shadow: grey;
     border-radius: 10px;
     border: 1px solid #ccc;
+    padding: 10em;
 }
 
 .title {
@@ -31,10 +27,24 @@ a {
 }
 
 .box {
-    border-radius: 10px;
+    border-radius: 5px;
+    margin: 10px 10px;
     float: left;
-    width: 30%;
-    border: 1px solid
+    width: 17%;
+}
+
+.box_blue {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.box_green {
+    background-color: mediumspringgreen;
+    color: white;
+}
+
+.box_yellow {
+    background-color: gold;
 }
 
 .elements {
