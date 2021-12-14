@@ -40,6 +40,12 @@ body {
     width: 25%;
 }
 
+.flex-box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
 .box_blue {
     background-color: dodgerblue;
     color: white;
